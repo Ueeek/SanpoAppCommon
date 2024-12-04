@@ -14,7 +14,7 @@ public struct Angle: Hashable {
 
     public var value: Double
 
-    init(_ value: Double) {
+    public init(_ value: Double) {
         self.value = value
     }
 

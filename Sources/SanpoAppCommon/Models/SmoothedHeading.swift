@@ -9,7 +9,7 @@ import Foundation
 import CoreLocationClient
 
 public struct SmoothedHeading: Equatable {
-    var magneticHeading: Double
+    public var magneticHeading: Double
 }
 
 public extension SmoothedHeading {

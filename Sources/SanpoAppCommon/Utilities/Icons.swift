@@ -15,7 +15,7 @@ public enum LocationIcon: Codable, Sendable, CaseIterable {
     case school
     case sports
 
-    var name: String {
+    public var name: String {
         switch self {
         case .home:
             "house.fill"

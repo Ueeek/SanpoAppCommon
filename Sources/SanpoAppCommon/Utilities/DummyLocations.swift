@@ -17,7 +17,7 @@ public enum DummyLocations {
     case mizonokuchi
     case matsue
 
-    var location: Location {
+    public var location: Location {
         switch self {
         case .tokyo:
             Location(rawValue: CLLocation(latitude: 35.6812, longitude: 139.7671))

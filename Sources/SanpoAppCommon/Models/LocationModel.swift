@@ -8,16 +8,16 @@
 import CoreLocationClient
 
 public struct LocationModel: Codable, Equatable, Sendable, Hashable, Identifiable {
-    var id: UUID
-    var name: String
-    var icon: LocationIcon
-    var location: Location
+    public var id: UUID
+    public var name: String
+    public var icon: LocationIcon
+    public var location: Location
 
-    mutating func updateIcon(_ icon: LocationIcon) {
+    public mutating func updateIcon(_ icon: LocationIcon) {
         self.icon = icon
     }
 
-    mutating func updateName(_ name: String) {
+    public mutating func updateName(_ name: String) {
         self.name = name
     }
 }

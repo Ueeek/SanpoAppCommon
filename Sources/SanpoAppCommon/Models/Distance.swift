@@ -14,7 +14,7 @@ public struct Distance {
 
     public var value: Double
 
-    init?(_ value: Double) {
+    public init?(_ value: Double) {
         //        guard value >= 0 else { return nil }
         self.value = value
     }
