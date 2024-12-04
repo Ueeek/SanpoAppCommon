@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum LocationIcon: Codable, Sendable, CaseIterable {
+public enum LocationIcon: Codable, Sendable, CaseIterable {
     case home
     case pin
     case store

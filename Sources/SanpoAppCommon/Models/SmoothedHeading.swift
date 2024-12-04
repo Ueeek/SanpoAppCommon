@@ -8,11 +8,11 @@
 import Foundation
 import CoreLocationClient
 
-struct SmoothedHeading: Equatable {
+public struct SmoothedHeading: Equatable {
     var magneticHeading: Double
 }
 
-extension SmoothedHeading {
+public extension SmoothedHeading {
     func headingSmoother(new: SmoothedHeading) -> SmoothedHeading {
         return self._headingSmoother(new: new)
     }

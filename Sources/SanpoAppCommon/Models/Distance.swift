@@ -7,19 +7,19 @@
 
 import Foundation
 
-struct Distance {
-    static var zero: Self {
+public struct Distance {
+    public static var zero: Self {
         return Distance(0)!
     }
 
-    var value: Double
+    public var value: Double
 
     init?(_ value: Double) {
         //        guard value >= 0 else { return nil }
         self.value = value
     }
 
-    var shortMeters: String {
+    public var shortMeters: String {
         let intValue = Int(value.rounded())
         if intValue < 1000 {
             return String(intValue) + "m"

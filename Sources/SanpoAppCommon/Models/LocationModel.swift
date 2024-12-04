@@ -7,7 +7,7 @@
 
 import CoreLocationClient
 
-struct LocationModel: Codable, Equatable, Sendable, Hashable, Identifiable {
+public struct LocationModel: Codable, Equatable, Sendable, Hashable, Identifiable {
     var id: UUID
     var name: String
     var icon: LocationIcon

@@ -9,7 +9,7 @@
 import Foundation
 import CoreLocationClient
 
-enum DummyLocations {
+public enum DummyLocations {
     case tokyo
     case yokohama
     case hokkaido

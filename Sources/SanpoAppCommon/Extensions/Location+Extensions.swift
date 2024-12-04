@@ -6,7 +6,7 @@
 //
 import CoreLocationClient
 
-extension Location {
+public extension Location {
     var coordinate2D: CLLocation {
         CLLocation(latitude: self.coordinate.latitude, longitude: self.coordinate.longitude)
     }

@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-extension Color {
+public extension Color {
     /// create new object with hex string
     init?(hex: String, opacity: Double = 1.0) {
         // delete "#" prefix

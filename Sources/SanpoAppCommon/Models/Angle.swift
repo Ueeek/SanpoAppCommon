@@ -7,18 +7,18 @@
 
 import Foundation
 
-struct Angle: Hashable {
-    static var zero: Angle {
+public struct Angle: Hashable {
+    public static var zero: Angle {
         return Angle(0)
     }
 
-    var value: Double
+    public var value: Double
 
     init(_ value: Double) {
         self.value = value
     }
 
-    var isZero: Bool {
+    public var isZero: Bool {
         return value == 0
     }
 }

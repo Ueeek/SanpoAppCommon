@@ -7,12 +7,12 @@
 
 import Foundation
 
-enum LocationListError: Error {
+public enum LocationListError: Error {
     case failToRemove
     case notFound
 }
 
-struct LocationList: Codable, Equatable, Sendable {
+public struct LocationList: Codable, Equatable, Sendable {
     #if DEBUG
     mutating func mockList() {
         self.locations = [
