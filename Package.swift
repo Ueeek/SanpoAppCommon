@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.16.1"),
-        .package(url: "https://github.com/Ueeek/composable-core-location", branch: "main")
+        .package(url: "https://github.com/Ueeek/composable-core-location", revision: "363839a87ee57bf2b73285921243dca982397eef")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
