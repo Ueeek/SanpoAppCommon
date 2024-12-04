@@ -13,6 +13,8 @@ public enum LocationListError: Error {
 }
 
 public struct LocationList: Codable, Equatable, Sendable {
+    public init() {}
+    
     #if DEBUG
     public mutating func mockList() {
         self.locations = [
