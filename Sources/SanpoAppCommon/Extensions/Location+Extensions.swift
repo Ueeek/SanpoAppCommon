@@ -22,7 +22,7 @@ public extension Location {
         return Distance(value) ?? .zero
     }
 
-    func calculateBearing(to destinationLocation: Location) -> Angle {
+    func calculateBearing(to destinationLocation: Location) -> MyAngle {
         let current = self.coordinate
         let destination = destinationLocation.coordinate
         let phi1 = current.latitude * .pi / 180
@@ -36,6 +36,6 @@ public extension Location {
             sin(phi1) * cos(phi2) * cos(delta)
         let bearing = atan2(y, x)
         let value = (bearing * 180 / .pi + 360).truncatingRemainder(dividingBy: 360) // 0-360度に変換
-        return Angle(value) ?? .zero
+        return MyAngle(value) ?? .zero
     }
 }
