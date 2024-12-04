@@ -27,7 +27,7 @@ public struct LocationList: Codable, Equatable, Sendable {
         ]
     }
     #endif
-    private(set) var locations: [LocationModel] = []
+    public var locations: [LocationModel] = []
     public mutating func append(item: LocationModel) {
         locations.append(item)
     }
