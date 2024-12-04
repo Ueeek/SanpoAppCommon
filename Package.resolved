@@ -1,5 +1,5 @@
 {
-  "originHash" : "d855dd1e4c00faab5a9db5ea9c4b10220150bb04056a9bd3741594c09715fe4e",
+  "originHash" : "57b9a013606c76e4588f6393c36132a4f735643fbfebcde431f6ed3b79d82d78",
   "pins" : [
     {
       "identity" : "combine-schedulers",
@@ -15,6 +15,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Ueeek/composable-core-location",
       "state" : {
+        "branch" : "main",
         "revision" : "363839a87ee57bf2b73285921243dca982397eef"
       }
     },
