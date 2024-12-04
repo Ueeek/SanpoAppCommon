@@ -7,9 +7,9 @@
 
 import Foundation
 
-public struct Angle: Hashable {
-    public static var zero: Angle {
-        return Angle(0)
+public struct MyAngle: Hashable {
+    public static var zero: MyAngle {
+        return MyAngle(0)
     }
 
     public var value: Double
